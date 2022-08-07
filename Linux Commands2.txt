@@ -1,0 +1,135 @@
+file hierarcy
+everyting is file in linux
+***********************************
+Creating file and deleting
+touch ilk
+rm ilk
+***********************************
+Creating directory and deleting
+mkdir asd
+rmdir asd/
+***********************************
+ls -a
+cd .    (press tab)
+cd .config/
+
+cd (home)
+
+ls -at
+ls -l
+ls -ln
+***********************************
+file carrying
+mv filee directoryy/
+mv can use changing the name too mv dizilim documents
+***********************************
+directory carrying
+mv directoryy/ Documents/
+mv dizinadi/ dizinadidegisti/  //we changed the name 
+mv dizin/ /home/yasir/DizinTasindiAdiDegisti
+***********************************
+file copying
+cp second second2
+cp second second3
+***********************************
+directory copying
+cp -r denemedizin2/ /home/yasir/Documents/
+***********************************
+searching file
+find /home/yasir/
+find / -name second
+find / | grep second
+
+sudo updatedb
+locate second
+***********************************
+file archiving and extract
+tar -cvf second.tar second
+tar -xvf second.tar
+***********************************
+directory archiving and extract
+tar -cvf Musix.tar Musix/
+tar -xvf Musix.tar
+
+mkdir /home/yasir/extracttt
+tar -xvf Musix.tar -C /home/yasir/extracttt
+
+
+ls /home/yasir/extracttt
+
+tar -xvf Musix.tar --one-top-level=Musss
+tar -xvf Musix.tar --one-top-level=/home/yasir/Desktop/Muss
+************************************
+reading file content detailed
+ls / > Desktop/second
+cd Desktop/
+cat second
+
+ls / >> second
+ls / >> second
+ls / >> second
+ls / >> second
+cat second
+
+more second
+
+head second
+
+tail second
+
+tac second
+
+
+head second > third
+
+cat third
+
+tac third > forth
+*******************************
+File content editors
+nano
+vi
+
+nano Desktop/forth
+
+nano --------------> ctrl o, ctrl x
+
+vim editor mod command mode
+esc :
+:q
+:q! //don't care that I wrote
+:w Desktop/weplayedwithvim
+
+vi Desktop/weplayedwithvim
+
+:wq
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

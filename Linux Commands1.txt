@@ -1,0 +1,87 @@
+echo hello  // write string
+
+echo $hello // empty output
+
+echo $SHELL // it shows shell place
+
+echo $BASH_VERSION //shell version 
+
+$SHELL --version //shell version
+********************************
+Commands
+cd  // changes directory
+echo
+cat // it prints outputs in terminal
+<veya> //direction sign   it prints asd to file it directions
+ls // lists
+*********************************
+
+~$ // home direction
+
+**********************************
+Command1
+
+cd Desktop/
+echo hello
+echo hello > Bos
+echo asd > Bos
+echo xyz > Document
+**********************************
+Command2
+cd Desktop/
+clear
+cat Bos
+cat Document
+cat Bos Document
+*********************************
+command parameter argument
+
+man command argument showing
+man cat
+
+cat -n Bos //it gives number to the lines
+cat -n Bos > Bos2
+*********************************
+Using pipe
+Command3
+cd Desktop/
+echo hello > namee
+echo bakir >> namee
+
+cat asd
+*********************************
+pipe // it connects the commands it creates single part command
+|
+cat asd
+grep  // it shows the line of the word(vs)
+cat asd | grep security
+
+
+as extra
+$SHELL --version > ilk
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
