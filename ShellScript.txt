@@ -1,0 +1,14 @@
+#! /bin/bash
+
+cat /home/yasir/Masaüstü/log | grep serhat >> /home/yasir/Masaüstü/logtoplam
+mkdir /home/yasir/Masaüstü/Loglar
+mv logtoplam /home/yasir/Masaüstü/Loglar/logtoplam
+tar -cvf /home/yasir/Masaüstü/Loglar/logtoplam.tar /home/yasir/Masaüstü/Loglar/logtoplam
+echo PROCESS OK
+
+
+********
+Note:Why did it work different, when I run shellscript file from the image? 
+The code doesn't keep the log I think, there are some problems but I couldn't find. 
+I solved this problem probably.
+********

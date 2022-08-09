@@ -1,0 +1,92 @@
+users
+id -u
+system users login users
+0. id root users
+*******************************
+User listing
+cat /etc/passwd
+cat /etc/passwd | grep yasir
+cat /etc/passwd | grep bash
+
+cat /etc/shadow
+******************************
+id
+cat /etc/group
+******************************
+file having and group having
+reading writing deleting
+touch /etc/createdocument //it couldn't create, this is normal 
+******************************
+without login, root using root authority
+sudo touch /etc/createdocument
+sudo rm /etc/createdocument
+******************************
+opening sudoers
+sudo nano /etc/sudoers
+******************************
+being root in terminal
+sudo passwd root
+sudo su
+cat /etc/shadow
+exit
+*****************************
+changing user on terminal
+su yasir
+*****************************
+showing permissions
+ls -la
+ls -lna
+*****************************
+changing file permissions
+chmod u=rwx,g=rwx,o=rwx deneme
+chmod u=r,g=w,o=x deneme
+
+while in root we are writing ./deneme it works  //but didn't happen
+chmod u=,g=,o= deneme
+
+r=4 w=2 x=1
+chmod 777 deneme
+chmod 755 deneme
+
+chmod -004 deneme
+chmod +004 deneme
+****************************
+creating user
+sudo adduser yetkilibey
+
+cat /etc/passwd
+****************************
+creating group
+
+sudo groupadd yetkililer
+groups
+cat /etc/group
+****************************
+authority subject
+file having changing
+
+sudo chown yetkilibey:yasir vimleoynadik
+
+sudo chown yetkilibey:yetkililer vimleoynadik   // for I wrote the group names, it changed group part?
+***************************
+user group changing adding
+sudo usermod -a -G yetkililer yasir
+cat /etc/group
+
+reboot // 
+id
+***************************
+user group deleting
+sudo deluser yasir yetkililer
+
+user deleting
+sudo userdel yetkilibey
+***************************
+group deleting
+sudo groupdel yetkililer
+
+sudo chown yasir:yasir vimleoynadik  //I haved this file
+
+
+
+ 

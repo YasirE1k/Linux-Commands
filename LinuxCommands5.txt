@@ -1,0 +1,6 @@
+Running a shellscript
+gedit (I copied code)
+cd /Desktop
+chmod +x weather  //I gave work authority
+./weather         //To work a shellscript "." (I am in this directory.)
+

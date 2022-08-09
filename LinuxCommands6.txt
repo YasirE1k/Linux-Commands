@@ -1,0 +1,42 @@
+dpkg //packet manager
+apt //packet manager
+
+cat /etc/apt/sources.list
+
+sudo apt update
+
+sudo apt install leafpad
+sudo apt remove leafpad
+*************************
+apt search chromium
+sudo apt install chromium-browser
+
+sudo apt install a b c vs 
+*************************
+sudo dpkg -i leafpad_0.8.18.1-5_amd64.deb
+dpkg -l
+dpkg -l | grep leafpad
+sudo dpkg -r leafpad 
+*************************
+source code packet downloading
+sudo apt install build-essential
+tar -xvf leafpad-0.8.17.tar.gz
+cd leafpad-0.8.17
+./configure
+sudo apt install pkg-config
+sudo apt install libgtk2.0-dev
+make
+sudo make install
+sudo make uninstall
+************************
+
+
+
+
+
+
+
+
+
+
+

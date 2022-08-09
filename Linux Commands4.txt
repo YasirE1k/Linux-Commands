@@ -1,0 +1,78 @@
+//it can be wrong or missing
+ps
+ps -a
+ps -aux
+
+gedit  //we can rescue from interface
+
+ps -aux | grep gedit
+**********************************
+xkill
+ps -aux | grep root
+ps -auroot
+ps -auyasir
+*********************************
+killing process
+killall gedit(program name) //this kills all gedit process
+kill -9 1234(process id)
+sudo kill -9 1234  -15 can use too probably
+**********************************
+process throwing background
+gedit
+crtl+z we throwed to background
+jobs -l 
+bg
+fg 1
+*********************************
+service concept
+service
+systemctl
+service gdm3 status
+*********************************
+system services
+service --status-all
+systemctl list-units --type=service
+*********************************
+service processes
+sudo service gdm3 restart
+sudo systemctl restart gdm3.service
+
+service --status-all
+service network-manager stop
+service network-manager status
+service network-manager start
+service network-manager restart 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
